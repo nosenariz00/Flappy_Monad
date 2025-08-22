@@ -1,8 +1,8 @@
 // main.js
 // Punto de entrada: asegura el orden, inicia flujo tras cargar DOM y escucha eventos
 
-import { checkIfUserHasNFT } from './nftCheck.js';
-import { contract, getCurrentAccount } from './wallet.js';
+
+import { contract, getCurrentAccount } from 'wallet.js';
 
 console.log('🚀 Iniciando aplicación...');
 
